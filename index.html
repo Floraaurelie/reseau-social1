@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>recherche</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <nav>
+        <!-- div pour tout les elements du moteur de recherche  -->
+        <div class="flexcenter" >
+        <div>
+            <img src="image/logov.png" alt="logo microsoft bing" class="image"> 
+        </div>           
+        <div>
+         <div>
+            <input type="search" value="nourriture" class="bar align">
+            <!-- icone microphone -->
+            <div class="microphone"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="45px" height="45px" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M17.3 11c0 3-2.54 5.1-5.3 5.1S6.7 14 6.7 11H5c0 3.41 2.72 6.23 6 6.72V21h2v-3.28c3.28-.49 6-3.31 6-6.72m-8.2-6.1c0-.66.54-1.2 1.2-1.2c.66 0 1.2.54 1.2 1.2l-.01 6.2c0 .66-.53 1.2-1.19 1.2c-.66 0-1.2-.54-1.2-1.2M12 14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3a3 3 0 0 0-3 3v6a3 3 0 0 0 3 3Z"/></svg>
+            </div>
+            <!-- icone camera -->
+            <div class="camera"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" enable-background="new 0 0 20 20">
+            <circle fill="#00809D" cx="10" cy="10" r="3"/>
+            <circle fill="#00809D" cx="5.5" cy="5.5" r="1.25"/>
+            <path stroke="#00809D" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M1 7.25v-2.5c0-2.071 1.679-3.75 3.75-3.75h2.5M7.25 19h-2.5c-2.071 0-3.75-1.679-3.75-3.75v-2.5M19 12.75v2.5c0 2.071-1.679 3.75-3.75 3.75h-2.5M12.75 1h2.5c2.071 0 3.75 1.679 3.75 3.75v2.5" fill="none"/>
+            <path fill="none" d="M0 0h20v20h-20z"/>
+            </svg></div>
+            <!--icone search  -->
+            <div class="search"><svg viewBox="0 0 25 25"><path stroke="#007DAA" stroke-width="2.5" 
+                stroke-linecap="round" stroke-miterlimit="10" fill="none" d="M23.75 23.75l-9-9">
+            </path><circle stroke="#007DAA" stroke-width="2.5" stroke-linecap="round" stroke-miterlimit="10" cx="9" 
+            cy="9" r="7.75" fill="none"></circle><path fill="none" d="M25 25h-25v-25h25z"></path></svg>
+            </div>            
+         </div>
+        </div>
+        <!-- icone list -->
+        <div class="liste">
+            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="40px" height="40px" 
+            preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16">
+            <path fill="currentColor" fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/></svg>
+        </div>
+        <div class="connexion"><input type="submit" value="connexion"> 
+        </div>
+    </div>
+    <!-- div pour le menu et filtre -->
+
+    <br><br><br><div class="href">
+        <a href="">TOUT</a>&nbsp;&nbsp;&nbsp;
+            <a href="">ACTUALITES</a>&nbsp;&nbsp;&nbsp;
+            <a href=""><b>IMAGES</b></a>&nbsp;&nbsp;&nbsp;<a href="">TOUT</a>
+            &nbsp;&nbsp;&nbsp;<a href="">VIDEOS</a>&nbsp;&nbsp;&nbsp;
+            <a href="">CARTES</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Filtre adulte:<b> modéré  
+                <!-- fleche liste deroulante -->
+            </b> <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" 
+             height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" 
+             fill-rule="evenodd" d="m5 8l7 8l7-8z"/></svg>&nbsp;&nbsp;filtre   
+                             <!-- filtre -->
+
+             <svg xmlns="http://www.w3.org/2000/svg" 
+             aria-hidden="true" role="img" width="30px" height="20px" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M7 6h10l-5.01 6.3L7 6zm-2.75-.39C6.27 8.2 10 13 10 13v6c0 .55.45 1 1 1h2c.55 0 1-.45 1-1v-6s3.72-4.8 5.74-7.39A.998.998 0 0 0 18.95 4H5.04c-.83 0-1.3.95-.79 1.61z"/></svg>  
+    </div>
+        <hr noshade>
+   
+</div>
+
+<div>
+    <div class="gallery1" class="flexbetween">
+        <a target="_blank" href="image/1.jpg">
+          <img src="image/1.jpg" alt="">
+        <div class="desc1 flexbetween c">Nourriture
+            <br><b>PNG</b></a>
+          </div></div>
+
+      <div class="gallery1 flexbetween">
+        <a target="_blank" href="image/2.jpg">
+          <img src="image/2.jpg" alt=""> 
+        
+        <div class="desc1 flexbetween">Nourriture 
+            <br><b>Cartoon</b></a>
+          </div></div> 
+
+      <div class="gallery1 flexbetween">
+        <a target="_blank" href="image/3.jpg">
+          <img src="image/3.jpg" alt="">
+        
+        <div class="desc1 flexbetween">Nourriture
+            <br><b>à colorier</b></a>
+          </div></div>
+
+      <div class="gallery1 flexbetween">
+        <a target="_blank" href="image/FR.jpg">
+          <img src="image/FR.jpg" alt="">
+        
+        <div class="desc1 flexbetween">Nourriture
+           <br> <b>Française</b></a>
+          </div></div>
+
+      <div class="gallery1 flexbetween">
+        <a target="_blank" href="image/4.jpg">
+          <img src="image/4.jpg" alt="" >
+          
+        <div class="desc1 flexbetween">Nourriture
+            <br><b>Bébé</b></a>
+          </div></div>
+
+      <div class="gallery1 flexbetween">
+        <a target="_blank" href="image/5.jpg">
+          <img src="image/5.jpg" alt=""> 
+        <div class="desc1 flexbetween">Nourriture
+           <br><b>Africaine</b></a>
+          </div></div>
+
+      <div class="gallery1 flexbetween">
+        <a target="_blank" href="image/chine.jpg">
+          <img src="image/chine.jpg" alt="">
+        
+        <div class="desc1 flexbetween"><b>Chinois</b><br>
+            Nourriture</a></div></div>
+
+          
+      
+    </div></div>
+    
+
+ 
+    <!-- LES GRANDES IMAGES -->
+
+    
+    <div class="gallery">
+  <a target="_blank" href="image/G1.jpg">
+    <img src="image/G1.jpg" alt="" class="affi">
+  </a>
+  <div class="desc">Wallpapers Nourriture Allemande- <br>
+    MaximumWall </div></div>
+
+<div class="gallery">
+  <a target="_blank" href="image/G2.jpg">
+    <img src="image/G2.jpg" alt="" class="affi">
+  </a>
+  <div class="desc">Télécharger fonds d’écran nourriture<br>
+    gratuitement</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="image/G3.jpg">
+    <img src="image/G3.jpg" alt="" class="affi" >
+  </a>
+  <div class="desc">la nourriture bio bonne pour la santé?-<br>pieuvre.ca
+        </div></div>
+
+<div class="gallery">
+  <a target="_blank" href="image/G4.jpg">
+    <img src="image/G4.jpg" alt="" class="affi">
+  </a>
+  <div class="desc">j'ai mangé de la nourriture pour animaux-<br>
+    URBANIA</div></div>
+
+<div class="gallery">
+    <a target="_blank" href="image/G5.jpg">
+      <img src="image/G5.jpg" alt="" class="affi">
+    </a>
+    <div class="desc">Télécharger fonds d’écran nourriture <br>gratuitement</div>
+  </div>
+        </div>
+    </div>
+
+    <div class="second">
+        <div class="gallery">
+            <a target="_blank" href="image/G6.jpg">
+              <img src="image/G6.jpg" alt="" class="affi"></a>
+          </div> 
+    
+    <div class="gallery">
+        <a target="_blank" href="image/G7.jpg">
+          <img src="image/G7.jpg" alt="" class="affi"></a>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="image/G8.jpg">
+          <img src="image/G8.jpg" alt="" class="affi"></a>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="image/G9.jpg">
+                      <img src="image/G9.jpg" alt="" class="affi"></a>
+                  </div>
+                  <div class="gallery">
+                    <a target="_blank" href="image/G10.jpg">
+                      <img src="image/G10.jpg" alt=""class="affi"></a>
+                                 
+                  </div>
+    </div></div>
+    </div>
+    </div>
+    <button ><svg  class="com" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="2em" 
+        height="2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32">
+        <path fill="currentColor" style="background-color: blue;" d="M3 5v18h5v5.078L14.352 23H29V5zm2 2h22v14H13.648L10 23.918V21H5z"/>
+    </svg>commentaires</button>
+</div>
+
+</div>
+<!-- reprenons les premieres icones -->
+
+ </nav>   
+</body>
+</html>

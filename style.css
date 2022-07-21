@@ -1,0 +1,183 @@
+body, html {
+    height:100%;
+    width: 100%;
+}
+ 
+div.bloc_principale {
+   height:100%
+}
+ 
+ .image{
+    width: 90px ;
+    height: 30px;
+    left:900px;
+     }
+
+     .flexcenter{
+      display: flex;
+      justify-content: space-between;
+      align-items: stretch;
+     }
+      .align{
+        position: absolute;
+        left:300px;
+     }
+
+ .bar{
+    border-radius: 60px;
+    width: 700px ;
+    height: 60px;
+    border-color: #00809D;
+    font-size:120%;
+
+ } 
+ .camera{
+    width: 30px ;
+    height: 30px;
+    position: absolute;
+    left:890px;
+    top:20px;
+
+ }
+ .microphone{
+    width: 30px ;
+    height: 30px;
+    color: #00809D;
+    position: absolute;
+    left:830px;
+    top:18px;
+
+ }
+ .search{
+    width: 30px ;
+    height: 30px;
+    color: #00809D;
+    position: absolute;
+    left:945px;
+    top:20px;
+ }
+ input[type=submit]{
+    width: 80px ;
+    height: 40px;
+    position: absolute;
+    left:1135px;
+    top:23px;
+ }
+
+ .liste{
+    width: 230px ;
+    height: 100px;
+    position: absolute;
+    left:1230px;
+    top:23px;
+    color: dimgray;
+ }
+
+ .href{
+    margin-left: 310px;
+     top:40px;
+     color: black;
+
+ }
+ a{
+    text-decoration: none;
+ }
+ /* finis allons a icone */
+
+
+    .gallery1{
+        margin: 5px;
+      border-color: #00809D;
+      border: 1px solid ;
+      float:left;
+      width:155px;
+      height:50px ;
+      border-radius: 50px;
+      display: flex;
+      white-space: nowrap;
+      box-sizing: content-box;
+    }
+    
+    div.gallery1:hover {
+        border-radius: 60px;
+      }
+    
+    
+    div.gallery1 img {
+        width:55px; 
+        height:45px;
+        border-radius: 80px;
+        padding-top: 3px;
+        padding-right: 3px;
+        display: flex;
+    }
+
+        .flexbetween{
+display: flex;
+justify-content: space-between;
+align-items: stretch;
+        }
+
+.flexcenter{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+
+}
+div.class.correction{
+    padding-top: 10px;
+
+}
+
+    div.desc1 {
+        padding-top: 5px;
+        padding-right: 50px;        
+        font-size: 90%;
+    display: flex;
+}
+    
+/* grande image */
+ .grande{
+    display: flex;
+    border-radius: 30px;
+ }
+
+.gallery{
+margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 235px;
+  height:250px ;
+  border-radius: 2%;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+    width:235px; 
+    height:150px;
+}
+
+
+
+div.desc {
+  padding: 10px;
+  text-align: left;
+  font-size: 85%;
+}
+
+button{
+color: blue;
+margin-top: 40px;
+width: 150px;
+height: 50px;
+float: right;
+margin-right: 110px;
+margin-top: -50px;
+}
+
+/* reprenons les premieres icones */
